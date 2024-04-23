@@ -26,9 +26,10 @@ function draw() {
 
 function mousePressed(){
   let obj = new Dot(mouseX, mouseY);
-  
+  var newDot = new Dot(mouseX, mouseY); // creates new dot variable
   /* add a line of code that adds "obj" to the "dots" array. Use the .push() method of the dots array object to append the new "obj" to the end of an existing array. Check the Array.push() documentation first to make sure you are using it correctly.
   */
+ dots.push(newDot); // adds new dots 
 
 }
 
